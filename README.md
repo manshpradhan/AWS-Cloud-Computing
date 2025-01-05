@@ -74,8 +74,7 @@ Create another A Record for api.example.com:
 Also, don't forget to create a custom domain name for your API in API Gateway.
 
 Clone the Repository:
-git clone https://github.com/yourusername/multi-region-api-deployment.git
-cd multi-region-api-deployment
+git clone git remote add origin git@github.com:manshpradhan/AWS-Cloud-Computing.git
 
 Initialize Terraform:
 terraform init
