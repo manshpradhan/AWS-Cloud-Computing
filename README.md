@@ -29,7 +29,6 @@ The architecture includes the following components:
 ### Prerequisites
 
 Before you begin, make sure to have the following tools installed and configured:
-
 1. **AWS CLI**: Install and configure the AWS CLI with your credentials.
 2. **Terraform**: Install Terraform (v1.x or later).
 
@@ -40,6 +39,7 @@ Navigate to the `lambda` folder and package your Lambda function into a zip file
 ```bash
 cd lambda
 zip lambda_function.zip lambda_function.py
+```
 
 ## Step 2: Set Up Custom Domain Names and Latency-Based Routing
 
@@ -81,15 +81,13 @@ Follow these steps for both regions (`us-east-1` and `ap-south-1`):
 
 Additionally, don't forget to create a custom domain name for your API in API Gateway.
 
----
-
 ## Step 3: Initialize and Deploy with Terraform
 
 - Clone the repository:
 
   ```bash
   git clone git@github.com:manshpradhan/AWS-Cloud-Computing.git
-
+  ```
 
 ## Step 4: Set Up Route53 Latency-Based Routing
 - Add latency records in Route53 for the API endpoints in us-east-1 and ap-south-1
